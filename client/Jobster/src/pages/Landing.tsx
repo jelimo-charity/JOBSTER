@@ -1,14 +1,10 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.svg';
 import main from '../assets/images/main.svg';
+import '../App.css';
 
 const Landing: React.FC = () => {
-import logo from '../assets/images/logo.svg'
-import main from '../assets/images/main.svg'
-import '../App.css'
-const Landing = () => {
   return (
     <div>
       <section>
@@ -31,8 +27,7 @@ const Landing = () => {
               <button>Login/Register</button>
             </Link>
           </div>
-          <img src={main} alt="job hunt" />
-          <img src={main} alt='job hunt' className='jobhunt' />
+          <img src={main} alt="job hunt" className='jobhunt' />
         </div>
       </section>
     </div>
