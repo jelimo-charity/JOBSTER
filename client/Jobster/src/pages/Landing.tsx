@@ -5,6 +5,10 @@ import logo from '../assets/images/logo.svg';
 import main from '../assets/images/main.svg';
 
 const Landing: React.FC = () => {
+import logo from '../assets/images/logo.svg'
+import main from '../assets/images/main.svg'
+import '../App.css'
+const Landing = () => {
   return (
     <div>
       <section>
@@ -28,6 +32,7 @@ const Landing: React.FC = () => {
             </Link>
           </div>
           <img src={main} alt="job hunt" />
+          <img src={main} alt='job hunt' className='jobhunt' />
         </div>
       </section>
     </div>
