@@ -1,5 +1,6 @@
 import logo from '../assets/images/logo.svg'
 import main from '../assets/images/main.svg'
+import '../App.css'
 const Landing = () => {
   return (
     <div>
@@ -18,7 +19,7 @@ const Landing = () => {
             </p>
             <button>Login/Register</button>
           </div>
-          <img src={main} alt='job hunt' />
+          <img src={main} alt='job hunt' className='jobhunt' />
         </div>
       </section>
     </div>
