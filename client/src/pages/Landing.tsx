@@ -1,16 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/images/logo.svg';
 import main from '../assets/images/main.svg';
 import '../App.css';
+import NavBar from '../components/Navbar';
 
 const Landing: React.FC = () => {
   return (
     <div>
       <section>
-        <div className="nav">
-          <img src={logo} alt="jobster logo" />
-        </div>
+        <NavBar />
         <div className="home-description">
           <div className="info">
             <h1>

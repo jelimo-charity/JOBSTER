@@ -3,9 +3,9 @@ import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes , useLocation} from 'react-router-dom';
 import './App.css';
 import Landing from './pages/Landing';
-import Dashboard from './pages/Dashboard/Dashboard';
+import Dashboard from './pages/Dashboard'
 import Register from './pages/Register';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 
 const App: React.FC = () => {
   const [showNavbar, setShowNavBar] = useState(true);
@@ -25,6 +25,7 @@ const App: React.FC = () => {
   return (
     <Router>
      {showNavbar  && <Navbar />} 
+
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/dashboard" element={<Dashboard />} />
